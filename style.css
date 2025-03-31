@@ -4,17 +4,14 @@
  /************** NAVIGATION BAR **************/
 .navbar {
     background-color: #000000;
-
     border-color: #000000;
     border-style: solid;
     border-width: 0;
     border-bottom-width: 1px;
-
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
-
     width: 100%;
 }
 
@@ -177,6 +174,7 @@ intro-story {
 .website-footer {
     background-color: #eee;
     padding: 50px;
+    margin-top: 30px;
 }
 
 .website-footer .container {
@@ -228,21 +226,21 @@ body {
     text-align: center;
     max-width: 85%;
     margin: auto;
-    position: relative; /* Prevents overlap issues */
-    padding-top: 140px; /* Creates space for the title */
-    z-index: 10; /* Ensures it's above other elements */
+    position: relative;
+    padding-top: 140px;
+    z-index: 10;
 }
 
 .gallery-title {
     font-size: 30px;
 
     font-family: Montserrat, Arial, Helvetica;
-    margin-bottom: 30px; /* Space between title & gallery */
+    margin-bottom: 30px;
     color: #000000;
     text-align: center;
-    display: inline-block; /* Keeps title width controlled */
-    position: relative; /* Ensures it stays visible */
-    z-index: 10; /* Keeps it above images */
+    display: inline-block;
+    position: relative;
+    z-index: 10;
 }
 
 .gallery {
@@ -263,6 +261,32 @@ body {
     margin: auto;
 }
 
+.text-container {
+    font-family: montserrat,Arial, Helvetica;
+    text-align: center;
+    position: relative;
+    color: black;
+    font-size: 20px;
+    max-width: 50%;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+
+.gallery-logo{
+    display: flex;
+    margin: 0 auto;
+}
+
+.gallery-logo img{
+    width: 35%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 .gallery-text{
     font-family: montserrat,Arial, Helvetica;
     text-align: center;
@@ -274,7 +298,6 @@ body {
     padding: 20px 20px 20px 20px;
     background-color: white;
     border-radius: 5px;
-
 }
 
 @media (max-width: 768px) {
@@ -289,3 +312,65 @@ body {
         max-width: 300px;
     }
 }
+
+/******************* CONTACT FORM *******************/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: mosterrat, Arial, Helvetica, sans-serif;
+  }
+
+  input[type=submit] {
+    background-color: #cfa1b5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  input[type=submit]:hover {
+    background-color: #ce8da9;
+  }
+
+  .container-form {
+    margin: 120px auto 0; 
+    width: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+  }
+
+  .container-explore {
+    display: block;
+    font-size: 24px;
+    color: #cfa1b5;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align-items: center;
+    height: 100px;
+    margin-left: 510px;
+  }
+  .row {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .column {
+    padding: 5px;
+}
+* {
+    box-sizing: border-box;
