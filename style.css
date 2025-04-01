@@ -4,7 +4,6 @@
  /************** NAVIGATION BAR **************/
 .navbar {
     background-color: #000000;
-    border-color: #000000;
     border-style: solid;
     border-width: 0;
     border-bottom-width: 1px;
@@ -284,7 +283,7 @@ body {
     width: 35%;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 .gallery-text{
@@ -351,11 +350,11 @@ input[type=text], select, textarea {
 
   .container-explore {
     display: block;
-    font-size: 24px;
-    color: #cfa1b5;
+    font-size: 20px;
+    color: #000000;
     padding-top: 50px;
-    padding-bottom: 30px;
     align-items: center;
     height: 100px;
-    margin-left: 510px;
+    margin-left: 630px;
+    margin-top: 40px;
   }

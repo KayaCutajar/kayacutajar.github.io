@@ -4,6 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commissions</title>
+    
+    <style>
+        .column {
+         padding: 5px;
+        }
+    
+        .column img{
+         border-radius: 8px;
+        }
+    
+          .row {
+        padding-top: 10px;
+        margin: auto;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+      }
+      
+    </style>    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,39 +38,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<style>
-    .column {
-     padding: 5px;
-    }
 
-    .column img{
-     border-radius: 8px;
-    }
-
-      .row {
-    padding-top: 10px;
-    padding-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    background-color: white;
-    padding: 20px 20px 20px 20px;
-  }
-  .container-explore{
-            display: flex;
-            font-size: 24px;
-            color: #000000;
-            padding-top: 5%;
-            align-items: center;
-            height: 100px;
-            margin-left: 25%;
-            border-radius: 25px;
-        }
-
-</style>
 <body>
     <nav class="navbar">
         <div class="container">
@@ -89,39 +79,41 @@
           <input type="email" id="email" name="email" placeholder="Your email..">
       
           <label for="subject">Commission Details</label>
-          <textarea id="Commission-Details" name="Commission-Details" rows="4" placeholder="Enter Your Requirement.."></textarea>
+          <textarea id="subject" name="Commission-Details" rows="4" placeholder="Enter Your Requirement.."></textarea>
       
           <input type="submit" value="Submit">
       
         </form>
       </div>
 
-      <span class="container-explore"> <b> Explore Gallery</b>
-      </span>
+      <div class="container-explore">
+        <h2>
+            Explore Gallery
+        </h2>
+      </div>
       <div class="row">
           <div class="column">
             <a href="gallery.html">
-                <img src="Gallery/illustration1.png" alt="" style="width: 200px;" height="240px">
+                <img src="Gallery/illustration1.png" alt="" width="200" height="240">
             </a>
           </div>
           <div class="column">
             <a href="gallery.html">
-                <img src="Gallery/shirtdesign4.png" alt="" style="width: 240px" height="200px">
+                <img src="Gallery/shirtdesign4.png" alt="" width="240" height="200">
             </a>
           </div>
           <div class="column">
             <a href="gallery.html">
-                <img src="Gallery/traditionalart3.png" alt="" style="width: 240px" height="200px">
+                <img src="Gallery/traditionalart3.png" alt="" width="240" height="200">
             </a>
           </div>
           <div class="column">
             <a href="gallery.html">
-                <img src="Gallery/Logo.png" alt="" style="width: 200px" height="240px">
+                <img src="Gallery/Logo.png" alt="" width="200" height="240">
             </a>
           </div>
       </div>
 
-      <!-- FOOTER -->
  <footer class="website-footer">
 
     <div class="container">
